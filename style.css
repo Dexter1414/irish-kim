@@ -22,6 +22,11 @@
 @import "carousel";
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
 
+/* SPACING */
+section{
+  padding: 80px 0;
+}
+
 .nunito-sans {
   font-family: "Nunito Sans", sans-serif;
   font-optical-sizing: auto;
@@ -102,26 +107,94 @@ body {
 
 .navbar.scrolled {
   background-color: lightblue;
-} 
-
-
+}
 
 /*button color */
-  .btn-contact {
-    background-color: lightcoral;
-    color: white !important;
-    border-radius: 25px;
-    padding: 8px 25px;
-    font-weight: 600;
-    border: 2px solid transparent;
-    transition: all 0.3s ease-in-out;
-  }
+.btn-contact {
+  background-color: lightcoral;
+  color: white !important;
+  border-radius: 25px;
+  padding: 8px 25px;
+  font-weight: 600;
+  border: 2px solid transparent;
+  transition: all 0.3s ease-in-out;
+}
 
-  .btn-contact:hover {
-    background-color: transparent;
-    color: black !important;
-    border-color: white;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  }
+.btn-contact:hover {
+  background-color: transparent;
+  color: black !important;
+  border-color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
 
+/* FOOTER 
+
+  /* MAIN FOOTER */
+.printing-footer {
+  background-color: #cfe9f7; /* Light Blue - 70% */
+  color: #000;
+}
+
+/* FOOTER SECTIONS */
+.footer-section {
+  padding: 10px 15px;
+}
+
+.footer-title {
+  color: #c1121f; /* Red - 20% */
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+/* LINKS */
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  color: #000; /* Black - 5% */
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  color: #c1121f;
+}
+
+/* BUTTON */
+.btn-print {
+  background-color: #ffd60a; /* Yellow - 5% */
+  color: #000;
+  font-weight: 600;
+  border-radius: 30px;
+  padding: 8px 20px;
+}
+
+.btn-print:hover {
+  background-color: #c1121f;
+  color: #fff;
+}
+
+/* DIVIDER */
+.footer-divider {
+  border-top: 2px solid #c1121f;
+  margin-top: 30px;
+}
+
+/* BOTTOM SECTION */
+.footer-bottom {
+  background-color: rgba(0, 0, 0, 0.05);
+  font-size: 14px;
+}
+
+/*FOR WHY-CHOOSING CARD */
+
+.why-card{
+  height: 100%;
+  border-top: 4px solid transparent;
+}
+
+.why-card:hover{
+  border-top: 4px solid lightcoral;
+}

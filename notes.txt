@@ -1,0 +1,23 @@
+INSTALLING GIT-SCM & GITHUB PRE-DEPLOYMENT
+
+INSTALLATION FOR GIT-SCM
+
+1. Go to, https://git-scm.com/
+2. Click for "Install for Windows" then click the "Click here to download".
+3. Once it download, click the download file.
+4. Once you clicked it, click next.
+5. Next again.
+6. Next Again.
+7. In the choices of, "Let Git decide" & "Override the default branch name for new repositories" 
+click the "Override the default branch name for new repositories".
+8. Once you next it, Click the "Git from the command line and also from 3rd-party software"
+9. Once you next it, pick the choice of "Use bundled OpenSSH"
+10. Click, next-next and click install.
+
+
+FOR THE GITHUB PRE DEPLOYMENT
+ 
+1. Go to https://github.com/
+2. If you don`t have account, please create and if you have log-in your account.
+3. After you create it or log-in, create a repository (don`t upload a file).
+4. Once you see the 4 steps or 5steps. 
